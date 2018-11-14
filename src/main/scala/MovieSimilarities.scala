@@ -1,5 +1,3 @@
-package com.sundogsoftware.spark
-
 import org.apache.spark._
 import org.apache.spark.SparkContext._
 import org.apache.log4j._
@@ -8,7 +6,7 @@ import java.nio.charset.CodingErrorAction
 import scala.io.Codec
 import scala.math.sqrt
 
-object MovieSimilarities {
+object  MovieSimilarities {
   /** Load up a Map of movie IDs to movie names. */
   def loadMovieNames() : Map[Int, String] = {
 
